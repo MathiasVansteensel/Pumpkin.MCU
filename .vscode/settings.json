@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "queue": "cpp",
+        "chrono": "cpp",
+        "span": "cpp"
+    }
+}
