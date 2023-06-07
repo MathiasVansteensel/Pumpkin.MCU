@@ -6,4 +6,8 @@ struct NetworkCredentials
   NetworkCredentials(const char* ssid, const char* password) : Ssid(ssid), Password(password)
   {
   }
+
+  NetworkCredentials() : Ssid(nullptr), Password(nullptr)
+  {
+  }
 };
